@@ -1,0 +1,25 @@
+.recipeContainer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    flex-wrap: wrap;
+    font-size: 1rem;
+}
+
+#input {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 3rem;
+    height: 2rem;
+    min-width: 15rem;
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 0 1rem 0 1rem;
+}
+
+.inputcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

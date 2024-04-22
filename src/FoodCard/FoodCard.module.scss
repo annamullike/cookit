@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    font-size: 70%;
+    background-color: white;
+    box-shadow: 1px 1px #f5f5f5;
+    border-radius: 1rem;
+    min-height: 10rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.foodRow {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.cardinfo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem ;
+    
+}
+
+.delete {
+    cursor: pointer;
+}
+
+
+
+.notes {
+    margin: 1rem;
+    resize: none;
+
+}
+
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 1rem 0 1rem;
+    cursor: pointer;
+    gap: .2rem;
+}
+
+
+
+#save {
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem;
+    background-color: black;
+    color: white;
+    width: 6rem;
+    border-radius: .2rem;
+
+}
+
+.savecontainer {
+    display: flex;
+    justify-content: center;
+    
+}

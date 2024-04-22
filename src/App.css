@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #ececec;
+  background-image: url("../src/assets/vecteezy_hand-drawn-vegetables-seamless-pattern-vegan-food_5490026.jpg");
+
+  background-size: cover;
+
+  /* color: #474747; */
+  /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(248,248,255,1) 22%, rgba(237,243,245,1) 63%, rgba(239,242,251,1) 98%); */
+}
+
