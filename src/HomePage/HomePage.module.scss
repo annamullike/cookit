@@ -33,16 +33,20 @@ font-size: 80%;
 }
 
 #catch {
+
     margin: 0;
-    width: 50rem;
+    // width: 50rem;
     color: black;
 }
  
 
 #description {
-    margin: 0;
-  cursor: pointer;
-  width: 30rem;
+  display: flex;
+  p {
+  margin: 0;
+    cursor: pointer;
+    width: 30rem;
+  }
 }
 
 .features {

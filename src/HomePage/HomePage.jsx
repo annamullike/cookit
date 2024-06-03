@@ -37,7 +37,10 @@ function HomePage() {
              <div>
                 <h1 id={styles.catch}>The All-In-One Recipe Finder
                     </h1>
-                    <p id={styles.description}>Start adding all the items in your <u onClick={() => navigate("/fridge")}>fridge</u> into Cookit, and we'll do the rest.</p>
+                    <div id={styles.description}>
+                    <p >Start adding all the items in your <u onClick={() => navigate("/fridge")}>fridge</u> into Cookit, and we'll do the rest.</p>
+                      </div>
+                    
              </div>
 
 

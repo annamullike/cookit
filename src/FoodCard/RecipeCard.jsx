@@ -5,8 +5,10 @@ function RecipeCard({foodid,img, title}) {
 
 
     const isLiked = (id) => {
-        const favorites = JSON.parse(localStorage.getItem("favorites"))
-        if (id in favorites) {
+        // const favorites = JSON.parse(localStorage.getItem("favorites"))
+        const favorites = JSON.parse(localStorage.getItem("favorites")) ?? {};
+        console.log("FAVORTE", favorites)
+        if (id && id in favorites) {
             return true
         }
         return false

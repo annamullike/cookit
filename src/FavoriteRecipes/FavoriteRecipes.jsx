@@ -15,7 +15,7 @@ function FavoriteRecipes() {
     <div className={global.outercontainer}>
       <h1 style={{color: "black"}}>Here are your favorite recipes</h1>
       <div className={styles.container}>
-        {favRecipes}
+        {favRecipes && favRecipes}
       </div>
         
     </div>
